@@ -1,0 +1,84 @@
+.Viewer > section {
+    width: 100%;
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.Viewer > section > h4 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.viewer_title {
+    margin-left: 20px;
+    display: flex;
+    min-width: 500px;  /* Prevent shrinking below 350px */
+    max-width: 100%;  /* Prevent overflow */
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(236, 236, 236);
+}
+
+.viewer_title h1 { /* ex)어깨 | 사레레 */
+    font-weight: normal;
+}
+
+.viewer_title h2 { /*총 볼륨*/
+}
+
+.viewer_setHead {
+    display: flex;
+    width: 100%;
+    gap: 20%;
+    margin-left: 80px;
+}
+
+.viewer_setHead h1:first-child {
+    margin-left: 40px;
+}
+
+.viewer_setDetail_section {
+    background-color: white;
+    width: 550px;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 5px;
+}
+
+.viewer_input-container{
+    display: flex;
+    align-items: center;  /* 세로 중앙 정렬 */
+    padding-bottom: 10px; 
+}
+
+.viewer_input-container span {
+    margin-left: 100px;
+}
+
+.viewer_input-container input, .viewer_input-container span{
+    width: 80px;
+    margin-right: 50px; /* 오른쪽 여백 추가 */
+}
+.viewer_input-container input:last-child {
+    margin-right: 30px;
+}
+
+
+.Viewer .viewer_content_wrapper {
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
+
+.Viewer .viewer_content_wrapper > p {
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.5;
+}
